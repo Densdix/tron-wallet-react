@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const accountController_1 = __importDefault(require("../controllers/accountController"));
+const authMiddleware_1 = __importDefault(require("../middleware/authMiddleware"));
+const accountRoute = (0, express_1.Router)();
+accountRoute.post('/registration', accountController_1.default.registration);
+accountRoute.post('/login', accountController_1.default.login);
+accountRoute.post('/wallet', accountController_1.default.setWallet);
+accountRoute.get('/auth', authMiddleware_1.default, accountController_1.default.check);
+accountRoute.get('/account', accountController_1.default.getAll);
+accountRoute.get('/ballance', authMiddleware_1.default, accountController_1.default.getBallance);
+accountRoute.get('/depositHistory', accountController_1.default.getDepisitHistory);
+accountRoute.get('/teamlist', authMiddleware_1.default, accountController_1.default.getTeamList);
+accountRoute.get('/task', accountController_1.default.completeTask);
+accountRoute.get('/taskscount', accountController_1.default.getTasksCount);
+exports.default = accountRoute;

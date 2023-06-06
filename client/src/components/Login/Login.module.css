@@ -1,0 +1,87 @@
+.mainContent {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: visible;
+    visibility: visible;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -khtml-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.headerPage{
+    background: var(--color1);
+    position: relative;
+    z-index: 1;
+    margin-top: -75px;
+    margin-bottom: -50px;
+}
+
+.loginWrapper{
+    background: var(--color20);
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 1.25rem;
+    padding: 1rem!important;
+}
+
+.container{
+    width: 100%;   
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title_section{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+.title_section p{
+    font-size: 10px;
+    margin-bottom: 0px
+}
+
+.title_section h5{
+    font-size: 1.25rem;
+}
+
+.formGroup{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.inputGroup{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.formControl{
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    padding: 0.675rem 1rem;
+    background-color: var(--color9);
+    border: none;
+    border-radius: 1.75rem;
+    outline: none;
+}
+
+.pipi{
+    position: absolute;
+    right: 15px;
+    color: #666666;
+    background: none;
+    margin-top: 15px;
+    z-index: 9;
+}

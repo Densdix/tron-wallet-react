@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a:focus,a:visited,a:active{
+  outline: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* [color-mode=light] */
+:root{
+  --color1: #3E6BF2;
+  --color2: #fe7223;
+  --color3: #ffa800;
+  --color4: #9fc0e178;
+  --color5: #575757;
+  --color6: #010e2b;
+  --color7: #797979;
+  --color8: #dfdfdf;
+  --color9: #f4f4f4;
+  --color10: #342FD4;
+  --color11: #ff7500;
+  --color12: #27ae60;
+  --color13: #e4e4e4;
+  --color14: #e90133;
+  --color15: #efff80;
+  --color16: #2F4858;
+  --color17: #ff4747;
+  --color18: #ffc7c7;
+  --color19: #342FD4;
+  --color20: #ffffff;
+  --color21: rgba(255, 255, 255, 0.69);
+  --color22: #010e2b;
+  --color-white: #fff;
+  --transition: all 0.2s cubic-bezier(0.19, 0.68, 0.49, 1.21);
+  --transition2: all .3s linear;
+  --pill: 2.5rem;
+  --round: 50%;
+  --full: 100%;
+}
+
+[data-theme='dark'] {
+  --color1: #3E6BF2;
+  --color2: #fe7223;
+  --color3: #ffa800;
+  --color4: #c6e6ff;
+  --color5: #a0aac3;
+  --color6: #fff;
+  --color7: #a0aac3;
+  --color8: #dfdfdf;
+  --color9: #f4f4f4;
+  --color10: #342FD4;
+  --color12: #27ae60;
+  --color13: #141b2d;
+  --color14: #e90133;
+  --color15: #efff80;
+  --color16: #2F4858;
+  --color17: #ff4747;
+  --color18: #ffc7c7;
+  --color20: #1f2940;
+  --color22: #010e2b;
+  --color-white: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+  color: var(--color6);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: nunito;
+  color: var(--color6);
+  line-height: 1.5rem;
+  font-size: .9rem;
+}
+
+
+
+ul li, ol li {
+  font-family: nunito;
+  color: var(--color5);
+  font-size: .875rem;
+  line-height: 1.5rem;
+  list-style-type: none;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+.preloader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+  user-select: none;
+  z-index:  100;
+  width:    100%;
+  height:   100%;
+  
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.spiner{
+  margin: 0 auto;
+  width: 60px;
+  height:   100%;
+}

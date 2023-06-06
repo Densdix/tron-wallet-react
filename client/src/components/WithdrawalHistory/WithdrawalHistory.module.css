@@ -1,0 +1,14 @@
+.mainContent {
+    background-color: var(--color13);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: visible;
+    visibility: visible;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -khtml-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}

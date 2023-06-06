@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "email": "poyeh36572@migonom.com",
+    "password": "$2b$05$ucPtIwZbfJzsEzDPwCadmOHTpCDHfHqXBjFxkbsYP06r2mwPjFM1u",
+    "fullname": "poyeh36572",
+    "phoneNumber": "123456",
+    "vipLevel": 1,
+    "balance": 0,
+    "inviterId": 0,
+    "wallet": "TXxEuW3Mt17UiaodKzUp9sU1PV42opqhyp",
+    "trxPrivateKey": "E89D8BB1337A7E5495E0897AE9DF7820C3FFA2FFC9DAF057085311070C116D72",
+    "trxPublicKey": "049972106CF7AC7981326F0762FDC9E4EF490CAE5ECA06CCD840F79A92128FF351AD3E7AE4C543BA3C225E1E700F9D3028A2A30FB1F38865219965A12879C53C4B",
+    "trxAddressBase58": "TGWusaoAzsXmFckxXRm7QH3uDLDgfwFZWh",
+    "createdAt": "2023-01-14 12:45:49.266+00",
+    "updatedAt": "2023-01-17 19:36:11.243+00"
+}

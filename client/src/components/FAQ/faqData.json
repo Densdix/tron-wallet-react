@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "When will my order arrive?",
+        "description": "Shipping time is set by our delivery partners, according to the delivery method chosen by you. Additional details can be found in the order confirmation"
+    },
+    {
+        "id": 2,
+        "title": "How do I track my order?",
+        "description": "Once shipped, you’ll get a confirmation email that includes a tracking number and additional information regarding tracking your order."
+    },
+    {
+        "id": 3,
+        "title": "What’s your return policy?",
+        "description": "We allow the return of all items within 30 days of your original order’s date. If you’re interested in returning your items, send us an email with your order number and we’ll ship a return label."
+    },
+    {
+        "id": 4,
+        "title": "When will my order arrive?",
+        "description": "Shipping time is set by our delivery partners, according to the delivery method chosen by you. Additional details can be found in the order confirmation"
+    },
+    {
+        "id": 5,
+        "title": "How do I track my order?",
+        "description": "Once shipped, you’ll get a confirmation email that includes a tracking number and additional information regarding tracking your order."
+    },
+    {
+        "id": 6,
+        "title": "What’s your return policy?",
+        "description": "We allow the return of all items within 30 days of your original order’s date. If you’re interested in returning your items, send us an email with your order number and we’ll ship a return label."
+    }
+]

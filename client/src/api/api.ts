@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { IProfileFormInput } from "../components/Profile/ProfileForm";
 
 const axInstance = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://tron-wallet-react.onrender.com/api",
     withCredentials: true
 })
 

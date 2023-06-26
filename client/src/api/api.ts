@@ -1,4 +1,3 @@
-import { withdrawal } from './../../../server/src/controllers/accountController';
 import axios, { AxiosResponse } from "axios";
 import { IProfileFormInput } from "../components/Profile/ProfileForm";
 
